@@ -1,0 +1,8 @@
+Exercice : Builder - Construction de Maison
+
+Objectif :
+Utilisez le pattern Builder pour construire des maisons avec differentes caractéristiques
+- nb d'etages
+- piscine ou pas
+- type de toiture
+- couleur
