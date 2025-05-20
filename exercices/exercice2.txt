@@ -1,0 +1,12 @@
+Exercice : Decorator - Personnalisation de texte
+
+Objectif :
+Creez un systeme de personnalisation de texte où différents decorateurs ajoutent des transformations au texte, comme :
+- conversion maj ou minuscule
+- ajout prefixe ou suffixe
+
+Taches :
+1. implementez interface 'Text' avec methode transform()
+2. Créez un décorateur abstrait et plusieurs décorateurs concrets (pour changer la casse, ajouter des prefixes, etc.).
+3. Testez dans une classe principale
+

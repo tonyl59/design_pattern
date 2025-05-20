@@ -15,7 +15,7 @@ public class House {
         color = builder.color;
     }
 
-    public static class Builder{
+    public static class Builder{ // Je veux pas construire la classe avec "new"... je veux que ce soit un static
         private int nb_floor;
         private boolean is_pool;
         private String type; // roofing type
