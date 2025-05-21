@@ -1,0 +1,8 @@
+Designs patterns
+
+- Factory (Jouet) => Créer le jouet
+- Observer (Lutin) => Reçoit un message comme quoi un jouet a été crée/reçu
+- Decorator (Jouet) => Dans les cas où le jouet nous plait pas, on peut le modifier
+                                            ... mettre l'emballage du cadeau aussi.
+
+
