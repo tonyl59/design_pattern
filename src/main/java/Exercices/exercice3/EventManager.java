@@ -10,7 +10,6 @@ public class EventManager {
 
     public void addObserver(Observer observer){
         this.observers.add(observer);
-        count++;
     }
 
     public void removeObserver(Observer observer){
@@ -18,7 +17,8 @@ public class EventManager {
     }
 
     public void notifyObserver(String event){
-        System.out.println("Evenement n°"+count+event);
+        count++;
+        System.out.println("Evenement n°"+count+" "+event);
         for (Observer observer: observers){
             observer.update("test");
         }
