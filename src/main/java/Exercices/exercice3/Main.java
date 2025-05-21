@@ -26,6 +26,8 @@ public class Main {
         observer3.update("a aimé la notification d'évènement de course");
         observer2.update("test");
 
+        // Ici je dis à mon observateur de faire tel truc alors que c'est lui même qui doit faire l'action
+
 
     }
 }
