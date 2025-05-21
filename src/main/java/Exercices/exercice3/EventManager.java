@@ -15,12 +15,14 @@ public class EventManager {
     public void removeObserver(Observer observer){
         this.observers.remove((observer));
     }
-
+    public void createEvent(String event){
+        notifyObserver(event);
+    }
     public void notifyObserver(String event){
         count++;
         System.out.println("Evenement n°"+count+": "+event);
         for (Observer observer: observers){
-            observer.update("a reçu");
+            observer.update("a reçu la notification");
         }
     }
 }

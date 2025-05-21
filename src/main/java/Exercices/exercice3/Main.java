@@ -11,19 +11,20 @@ public class Main {
         event.addObserver(observer2);
         event.addObserver(observer3);
 
-        event.notifyObserver("Pêche aux moules");
+        event.createEvent("Pêche aux moules");
         observer1.update("a partagé les informations de l'évènement de pêche");
         observer2.update("a mis l'évènement dans le calendrier");
         observer3.update("a aimé la notification d'évènement");
 
-        event.notifyObserver("Chasse à l'escargot"); // Les deux observers obtiennent le message sans que je lance une fois chacun
+        event.createEvent("Chasse à l'escargot"); // Les deux observers obtiennent le message sans que je lance une fois chacun
         observer1.update("a partagé les informations de l'évènement de chasse");
         observer2.update("se désiste du fil de notifications");
         event.removeObserver(observer2);
 
-        event.notifyObserver("Course à l'ananas");
+        event.createEvent("Course à l'ananas");
         observer1.update("a partagé les informations de l'évènement de course");
         observer3.update("a aimé la notification d'évènement de course");
+        observer2.update("test");
 
 
     }
