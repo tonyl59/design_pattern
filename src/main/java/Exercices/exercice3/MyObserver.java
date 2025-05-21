@@ -10,7 +10,7 @@ public class MyObserver implements Observer{
 
     @Override
     public void update(String reaction) {
-        System.out.println(name + " a " + reaction);
+        System.out.println(name + " " + reaction);
 
     }
 }

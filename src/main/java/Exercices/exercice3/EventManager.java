@@ -18,9 +18,9 @@ public class EventManager {
 
     public void notifyObserver(String event){
         count++;
-        System.out.println("Evenement n°"+count+" "+event);
+        System.out.println("Evenement n°"+count+": "+event);
         for (Observer observer: observers){
-            observer.update("test");
+            observer.update("a reçu");
         }
     }
 }
