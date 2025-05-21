@@ -1,0 +1,8 @@
+Exercice : Observer - Notification d'évenements
+
+Objectif :
+Utilisez le pattern Observer pour créer un système de notification d'evenements
+
+1. Implémentez une classe 'EventManager' comme sujet, permettant d'ajouter et de notifier des observateurs.
+2. Implementez plusieurs observateurs, chacun ayant une reaction specifique à une notification
+3. Testez en simulant des evenements dans une classe principale

@@ -1,12 +1,15 @@
 package Exercices.exercice2;
 
 public class PrefixDecorator extends TextDecorator {
-    public PrefixDecorator(Text text) {
+
+    private String prefix;
+    public PrefixDecorator(Text text, String prefix) {
         super(text);
+        this.prefix = prefix;
     }
 
     @Override
-    public String transform() {
-        return "prEFix"+super.transform();
+    public String transform(String input) {
+        return prefix+super.transform(input);
     }
 }
